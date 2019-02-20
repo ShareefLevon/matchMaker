@@ -1,0 +1,17 @@
+{
+  "name": "lab3_survey",
+  "version": "1.0.0",
+  "description": "calculator ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.6.1",
+    "express": "*",
+    "is-empty": "^1.2.0"
+  },
+  "author": "Shareef Levon",
+  "license": "ISC"
+}

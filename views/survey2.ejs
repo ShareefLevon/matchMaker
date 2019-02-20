@@ -1,0 +1,35 @@
+<html>
+    <head>
+        
+    <title>Survey</title>
+    </head>
+    
+    <body>
+    <h1> Question <%= qnum %></h1>
+        
+        <a href="/render">Render Vertical/ Horizontal View</a>
+        
+        <h1><%= question %></h1>
+            
+        
+    <form method="POST" action ="/survey2">
+        
+        
+        <input type="radio" name="answer" value="yes" > Yes>
+        <input type="radio" name="answer" value="no" > No >
+        <input type="submit" name="submit" value="next" > <br>
+        
+    </form>
+         <!--
+        <form method="POST">
+        
+        <input type="submit" name="back" value="back" > NON FUNCTIONAL <br>
+        
+    </form>
+    
+          /-->
+    </body>
+
+
+
+</html>
