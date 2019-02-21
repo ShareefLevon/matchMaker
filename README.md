@@ -8,3 +8,9 @@ How to run:
 4. enter "node app" or " node app.js"
 5. (Should say server started in CMD) Open browser and go to http://localhost:8088/
 6. Begin by entering a name and then begin the survey and answer the questions
+
+What I Practiced:
+-How to use node js 
+-practice rendering views with ejs
+-read in json using parser 
+-basic html pages 
